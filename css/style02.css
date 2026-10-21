@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color:#f1f5f9 ;
+}
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-cards {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#f1f5f9 ;
+padding: 50px;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.05);
+    flex: 1;
+    width: 210px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;   
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.preco {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: auto;
+gap: 8px;
+padding: 0 15px 18px;
+}
+
+.card h3 {
+    color:#20242b;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-size: 29px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+
+    & span{
+        font-size: 1.2rem;
+        color: #666666;
+    }
+
+}
+
+.card p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 5px 15px 15px;
+    text-align: justify;
+    color: #555;
+}
+.btn {
+background: none;
+    border: none;
+    font-size: 16px;
+    padding: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    white-space: nowrap;
+    color:#55aee8 ;
+}
+.btn:hover {
+    color:#0015ff ;
+}
+.texto {
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

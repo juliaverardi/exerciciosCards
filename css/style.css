@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-cards {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 80dvh;
+gap: 40px;
+flex-wrap: wrap;
+}
+
+.card-1 {
+   width: 400px;
+   min-height: 600px;
+   background-color: rgb(250, 207, 248);
+   border-radius: 10px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+.card-1 img {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 8px rgb(54, 35, 58);
+}
+
+.card-1 button:hover{
+    background-color: rgb(205, 41, 169);
+    cursor: pointer;
+ }
+
+.card-1 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 25px;
+    text-align: justify;
+}
+
+.card-2 {
+   width: 400px;
+   min-height: 600px;
+   background-color: rgb(151, 154, 195);
+   border-radius: 10px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+.card-2 img {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 8px rgb(39, 35, 104);
+}
+.card-2 button {
+    background-color: rgb(81, 65, 157);
+}
+.card-2 button:hover{
+    background-color: rgb(205, 41, 169);
+    cursor: pointer;
+ }
+
+.card-2 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 25px;
+    text-align: justify;
+}
+
+
+.card-3 {
+   width: 400px;
+   min-height: 600px;
+   background-color: rgb(255, 241, 172);
+   border-radius: 10px;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+.card-3 img {
+    width: 100%;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 8px rgb(97, 93, 41);
+}
+.card-3 button {
+    background-color: rgb(253, 255, 136);
+
+    
+
+}
+.card-3 button:hover{
+    background-color: rgb(205, 41, 169);
+    cursor: pointer;
+ }
+
+.card-3 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 25px;
+    text-align: justify;
+}
+
+.btn {
+    all: unset;
+    background-color: rgb(188, 137, 236);
+    width: 300px;
+    height:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.img-circle{
+    width:200px ;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
